@@ -1,0 +1,23 @@
+.jobBlock {
+    height: 50vh;
+    background-color: rgba(230, 188, 44, 0.56);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.jobContainer {
+    border: 1px solid;
+    width: 80%;
+    height: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .h2{
+        background-color: lightsteelblue;
+    }
+

@@ -1,0 +1,14 @@
+.main{
+height: 100vh;
+    background-color: #93ffe2;
+    }
+
+.text{
+    width: 300px;
+    background-color: rgba(11,52,79,0.78);
+}
+.photo{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(11,52,79,0.78);
+}
