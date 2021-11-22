@@ -35,11 +35,12 @@
 }
 
 .h4 {
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-size: 22px;
     font-weight: 300;
-    font-size: 28px;
-    line-height: 32px;
-    letter-spacing: 0.02em;
-    color: #ffffff;
     margin: 8px;
     text-decoration: none;
 }
