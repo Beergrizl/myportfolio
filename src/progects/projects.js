@@ -13,7 +13,7 @@ function Projects() {
                    <Title text={'Projects'}/>
                     <div className={s.singleProject}>
                         <SingleProject title={'Social network'} description={'Social network for the best friends.'}/>
-                        <SingleProject title={'TodoList'} description={'Best way to check your work tasks.'}/>
+                        <SingleProject title={'TodoList'} description={'Best way to check dfshrrt hdere rhretjhrrg rgehj rehj thwjthg wghrje gwhr your work tasks.'}/>
                     </div>
                 </div>
                     </div>
