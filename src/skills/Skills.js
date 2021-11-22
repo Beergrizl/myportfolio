@@ -10,12 +10,14 @@ function Skills() {
 <div className={`${sContainer.container} ${s.skillsContainer} `}>
 <Title text={'Skills'}/>
     <div className={s.skills}>
-    <Skill title={'HTML'} description={'Search for the keywords to learn more about each warning.\n' +
-    'To ignore, add // eslint-disable-next-line to the line before.\n'}/>
-    <Skill title={'JS'} description={'Search for the keywords to learn more about each warning.\n' +
+     <Skill/>
+
+    {/*<Skill title={'HTML'} description={'Search for the keywords to learn more about each warning.\n' +
+    'To ignore, add // eslint-disable-next-line to the line before.\n'}/>*/}
+   {/* <Skill title={'JS'} description={'Search for the keywords to learn more about each warning.\n' +
     'To ignore, add // eslint-disable-next-line to the line before.\n'}/>
     <Skill title={'React'} description={'Search for the keywords to learn more about each warning.\n' +
-    'To ignore, add // eslint-disable-next-line to the line before.\n'}/>
+    'To ignore, add // eslint-disable-next-line to the line before.\n'}/>*/}
 
     </div>
 </div>

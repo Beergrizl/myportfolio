@@ -1,3 +1,4 @@
+/*
 .skill {
     background-color: #93ffe2;
     width: 250px;
@@ -16,4 +17,49 @@
 
 .description {
 
+}*/
+.img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    /*margin-bottom: 10px;*/
 }
+
+.li {
+    max-width: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.h4 {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin: 8px;
+    text-decoration: none;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+}
+
+.div a {
+    text-decoration: none;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
