@@ -7,9 +7,9 @@ function Main() {
         <div className={s.main}>
             <div className={sContainer.container}>
             <div className={s.text}>
-            <span>Hi there</span>
-            <h1>Hi, i am Artem</h1>
-            <p>Frontend developer</p>
+            {/*<span>Hi there</span>*/}
+            <h1>Hi there, i am Artem</h1>
+            <p>Software Engineer with a focus on Frontend with React/TypeScript.</p>
             </div>
             <div className={s.photo}></div>
             </div>
