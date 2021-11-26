@@ -1,13 +1,13 @@
 import React from "react";
-import s from './singleProgect.module.css';
-
+import s from './singleProgect.module.scss';
+import {Project} from "./ProjectData";
 
 function SingleProject(props) {
     return (
         <div  className={s.project}>
             <div style={props.style} className={s.picture}>
-                <a className={s.btn}> site </a>
-                <a className={s.btn}>source</a>
+                <a href={Project.hrefSite} className={s.btn}> site </a>
+                <a href={Project.hrefSource}className={s.btn}>source</a>
             </div>
             <div className={s.content}>
                 <h3 className={s.text}>{props.title}</h3>

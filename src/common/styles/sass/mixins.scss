@@ -1,0 +1,9 @@
+@import "variables.sass";
+
+@mixin text ($fontFamily, $lineHeight, $fontSize,$fontWeight) {
+  font-family: $fontFamily;
+  color: $textColor;
+  line-height: $lineHeight;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+}

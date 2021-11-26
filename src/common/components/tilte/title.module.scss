@@ -1,0 +1,32 @@
+@import "../../styles/sass/variables";
+.title {
+  font-family: 'Dosis', sans-serif;
+  margin: 0 0 30px;
+  color: $textColor;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  line-height: 1.2;
+  position: relative;
+
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: $primaryColor;
+    width: 70px;
+    height: 3px;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+
+}
+
+.title h2 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+
+
