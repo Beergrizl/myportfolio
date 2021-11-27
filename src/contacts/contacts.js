@@ -1,21 +1,22 @@
 import React from "react";
-import s from './contacts.module.css';
+import s from './contacts.module.scss';
+import Title from "../common/components/tilte/title";
 
 
 function Contacts() {
     return (
         <div className={s.contactBlock}>
             <div className={s.contactContainer}>
-                <h2 className={s.h2}>Contacts</h2>
+                <Title text={'Contacts'}/>
                 <div className={s.formBlock}>
                     <form className={s.formContent}>
                         <input/>
                         <input/>
-                        <textarea rows="6" > </textarea>
-                        <button type={"submit"} className={s.buttonSub}> Send </button>
+                        <textarea rows="6"> </textarea>
+                        <button type={"submit"} className={s.buttonSub}> Send</button>
                     </form>
                 </div>
-               </div>
+            </div>
         </div>
     );
 }

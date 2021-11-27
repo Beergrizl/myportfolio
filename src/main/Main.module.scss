@@ -1,0 +1,24 @@
+@import "../common/styles/sass/variables.sass";
+@import "../common/styles/sass/mixins";
+
+.block{
+    background-color:$bgColor;
+    padding: 50px 0;
+    }
+
+.text{
+    width: 300px;
+    background-color: $bg2Color;
+}
+.text h1{
+    @include text($fontDosis, 1.2, 36px, 300);
+}
+
+.text p {
+    @include text($fontPoppins, 1.8, 14px, 200);
+}
+.photo{
+    display: flex;
+    height: 400px;
+    background-color: rgba(11,52,79,0.78);
+}

@@ -26,8 +26,8 @@ export const Project = [ {
     },
     {
         style: {backgroundImage: `url(${codeWars})`},
-        hrefSite: "",
-        hrefSource: "",
+        hrefSite: "https://www.codewars.com/",
+        hrefSource: "https://www.codewars.com/users/Beergrizl",
         title: 'Codewars',
         description:'Codewars is a coding practice site for all programmers where you can learn various programming languages..',
     },]

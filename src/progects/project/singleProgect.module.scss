@@ -30,14 +30,14 @@
 
     .btn {
       padding: 10px 20px;
-      width: 40px;
       background-color: $primaryColor;
-      color:$textColor;
+      color: $textColor;
       border-radius: 6px;
       cursor: pointer;
       position: relative;
       z-index: 1;
       text-align: center;
+      text-decoration: none;
     }
   }
 

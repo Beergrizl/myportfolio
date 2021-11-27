@@ -2,7 +2,7 @@
 
 .skillsBlock {
   background-color: $bg2Color;
-  padding: 100px 0;
+  padding: 50px 0;
 
   .skillsContainer {
     flex-direction: column;
@@ -14,7 +14,6 @@
     }
 
     .skills {
-      /*border: 1px solid;*/
       width: 75%;
       display: flex;
       justify-content: space-between;

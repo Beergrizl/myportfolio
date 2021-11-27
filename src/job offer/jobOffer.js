@@ -1,13 +1,14 @@
 import React from "react";
-import s from './job.module.css';
+import s from './job.module.scss';
+import Title from "../common/components/tilte/title";
 
 
 function JobOffer() {
     return (
         <div className={s.jobBlock}>
             <div className={s.jobContainer}>
-                <h2 className={s.h2}>Рассматриваю варианты удаленной работы</h2>
-                <button> Предложить оффер</button>
+                <Title text={'I am available for freelance'}/>
+                <button> Send offer </button>
             </div>
         </div>
     );
