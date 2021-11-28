@@ -1,4 +1,5 @@
 @import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
 
 .jobBlock {
   background-color: $bg2Color;
@@ -21,7 +22,11 @@
       cursor: pointer;
       border: none;
     }
-
+& h2{
+  @include text($fontDosis, 1.2, 22px, 300);
+  margin-top: 0;
+  letter-spacing: 1px;
+}
   }
 }
 

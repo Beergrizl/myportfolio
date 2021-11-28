@@ -7,7 +7,8 @@ function JobOffer() {
     return (
         <div className={s.jobBlock}>
             <div className={s.jobContainer}>
-                <Title text={'I am available for freelance'}/>
+                {/*<Title text={'I am available for freelance'}/>*/}
+                <h2>I am available for freelance</h2>
                 <button> Send offer </button>
             </div>
         </div>

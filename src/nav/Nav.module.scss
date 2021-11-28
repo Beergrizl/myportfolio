@@ -1,0 +1,15 @@
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins.scss";
+.nav{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+     margin-right: 10px;
+
+}
+.nav a{
+  @include text($fontDosis, 1.2, 25px, 300);
+  padding: 0 5px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
