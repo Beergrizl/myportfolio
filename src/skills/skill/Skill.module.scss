@@ -2,12 +2,16 @@
 @import "../../common/styles/sass/mixins";
 
 .ul {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  @media screen and (max-width: 560px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  /*flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-around;*/
   padding: 20px;
 
   .li {
