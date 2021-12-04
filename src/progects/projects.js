@@ -8,7 +8,7 @@ import {Project} from "./project/ProjectData";
 import st from './project/singleProgect.module.scss'
 
 const Projects = () => (
-    <div className={s.projectsBlock}>
+    <div className={s.projectsBlock} id={'projects'}>
         <div className={s.projectContainer}>
             <Title text={'Projects'}/>
             <div className={s.singleProject}>

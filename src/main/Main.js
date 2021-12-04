@@ -5,7 +5,7 @@ import samurai from '../assets/images/samurai.jpg'
 
 function Main() {
     return (
-        <div className={s.block}>
+        <div className={s.block} id={'main'}>
             <div className={sContainer.container}>
                 <div className={s.text}>
                     <h1>Hi there, i am Artsiom</h1>

@@ -5,7 +5,7 @@ import Title from "../common/components/tilte/title";
 
 function Contacts() {
     return (
-        <div className={s.contactBlock}>
+        <div className={s.contactBlock} id={'contacts'}>
             <div className={s.contactContainer}>
                 <Title text={'Contacts'}/>
                 <div className={s.formBlock}>

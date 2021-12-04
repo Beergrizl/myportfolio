@@ -4,9 +4,10 @@ import sContainer from './../common/styles/container.module.css'
 import Skill from "./skill/Skill";
 import Title from "../common/components/tilte/title";
 
+
 function Skills() {
     return (
-        <div className={s.skillsBlock}>
+        <div className={s.skillsBlock} id='skills'>
             <div className={`${sContainer.container} ${s.skillsContainer} `}>
                 <Title text={'Skills'}/>
                 <div className={s.skills}>
