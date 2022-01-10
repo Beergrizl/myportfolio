@@ -1,7 +1,7 @@
 @import "../common/styles/sass/variables";
 
 .projectsBlock {
-  background-color: $bgColor;
+  background-color: $bg2Color;
   padding: 50px 0;
 
   .projectContainer {
@@ -15,7 +15,6 @@
     flex-wrap: wrap;
 
     .singleProject {
-      border: 1px solid;
       width: 100%;
       display: flex;
       justify-content: space-between;

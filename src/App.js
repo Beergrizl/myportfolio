@@ -6,7 +6,6 @@ import Skills from "./skills/Skills";
 import JobOffer from "./job offer/jobOffer";
 import Contacts from "./contacts/contacts";
 import Footer from "./footer/footer";
-import {Route, Routes} from "react-router-dom";
 import Projects from "./progects/projects";
 
 
@@ -15,19 +14,11 @@ function App() {
         <div className="App">
             <Header/>
             <Main/>
-            <Skills />
+            <Skills/>
             <Projects/>
-            <JobOffer/>
+            {/*<JobOffer/>*/}
             <Contacts/>
             <Footer/>
-            {/*<Routes>
-                <Route path='/Main' element={<Main/>}/>
-                <Route path='/Skills' element={<Skills/>}/>
-                <Route path='/Projects' element={<Projects/>}/>
-                <Route path='/Contacts' element={<JobOffer/>}/>
-                <Route path='/Contacts' element={<Contacts/>}/>
-                <Route path='/Contacts' element={<Footer/>}/>
-            </Routes>*/}
         </div>
     );
 }

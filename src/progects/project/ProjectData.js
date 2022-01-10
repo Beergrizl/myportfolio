@@ -5,14 +5,14 @@ import codeWars from '../../assets/images/codeWars.png';
 
 export const Project = [ {
         style: {backgroundImage: `url(${social})`},
-        hrefSite: "https://beergrizl.github.io/counter/",
+        hrefSite: "https://beergrizl.github.io/samuraiWay/",
         hrefSource: "https://github.com/Beergrizl/samuraiWay",
         title: 'Social network',
         description:'Social network for the best friends.',
     },
     {
         style: {backgroundImage: `url(${todoList})`},
-        hrefSite: "https://beergrizl.github.io/counter/",
+        hrefSite: "https://github.com/Beergrizl/toDoList2.0",
         hrefSource: "https://github.com/Beergrizl/toDoList2.0",
         title: 'TodoList',
         description:'Best way to check your work tasks..',

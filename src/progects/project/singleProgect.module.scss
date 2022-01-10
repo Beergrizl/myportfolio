@@ -38,6 +38,12 @@
       z-index: 1;
       text-align: center;
       text-decoration: none;
+      transition: transform 0.4s;
+      &:hover{
+        transform: translateY(-7px);
+        background-color: transparent;
+        border: 2px solid $primaryColor;
+      }
     }
   }
 

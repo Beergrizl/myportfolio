@@ -1,19 +1,121 @@
 import React from "react";
 import s from './Main.module.scss';
-import sContainer from './../common/styles/container.module.css'
-import samurai from '../assets/images/samurai.jpg'
+import myPhoto from '../assets/images/myPhoto.jpg'
+import ReactTypingEffect from 'react-typing-effect';
+import Particles from "react-tsparticles";
+import Fade from 'react-reveal/Fade';
+import Tilt from 'react-tilt'
 
 function Main() {
+    const particlesInit = (main) => {
+        console.log(main);
+    };
+
+    const particlesLoaded = (container) => {
+        console.log(container);
+    };
     return (
         <div className={s.block} id={'main'}>
-            <div className={sContainer.container}>
+           <Particles
+               className={s.particles}
+                id="tsparticles"
+                init={particlesInit}
+                loaded={particlesLoaded}
+                options={{
+                    background: {
+                        color: {
+                            value: "$bgColor",
+                        },
+                    },
+                    fpsLimit: 60,
+                    interactivity: {
+                        events: {
+                            onClick: {
+                                enable: true,
+                                mode: "push",
+                            },
+                            onHover: {
+                                enable: true,
+                                mode: "repulse",
+                            },
+                            resize: true,
+                        },
+                        modes: {
+                            bubble: {
+                                distance: 400,
+                                duration: 2,
+                                opacity: 0.8,
+                                size: 40,
+                            },
+                            push: {
+                                quantity: 4,
+                            },
+                            repulse: {
+                                distance: 200,
+                                duration: 0.4,
+                            },
+                        },
+                    },
+                    particles: {
+                        color: {
+                            value: "#ffffff",
+                        },
+                        links: {
+                            color: "#ffffff",
+                            distance: 150,
+                            enable: true,
+                            opacity: 0.5,
+                            width: 1,
+                        },
+                        collisions: {
+                            enable: true,
+                        },
+                        move: {
+                            direction: "none",
+                            enable: true,
+                            outMode: "bounce",
+                            random: false,
+                            speed: 2,
+                            straight: false,
+                        },
+                        number: {
+                            density: {
+                                enable: true,
+                                area: 800,
+                            },
+                            value: 80,
+                        },
+                        opacity: {
+                            value: 0.5,
+                        },
+                        shape: {
+                            type: "circle",
+                        },
+                        size: {
+                            random: true,
+                            value: 5,
+                        },
+                    },
+                    detectRetina: true,
+                }}
+            />
+            <div className={s.maincontainer}>
+                <Fade bottom>
                 <div className={s.text}>
                     <h1>Hi there, i am Artsiom</h1>
-                    <p>Software Engineer with a focus on Frontend with React/TypeScript.</p>
+                    <p>
+                        <ReactTypingEffect
+                            text={'FrontEnd developer.'}
+                        />
+                    </p>
                 </div>
-                <div className={s.photo}>
-                    <img src={samurai}/>
-                </div>
+                    <Tilt className="Tilt" options={{ max : 25 }}  >
+                        <div className={s.photo}>
+                            <img src={myPhoto}/>
+                        </div>
+                    </Tilt>
+
+                </Fade>
             </div>
         </div>
     );

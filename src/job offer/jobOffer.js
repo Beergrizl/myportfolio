@@ -1,15 +1,17 @@
 import React from "react";
 import s from './job.module.scss';
-import Title from "../common/components/tilte/title";
-
+import ReactTypingEffect from 'react-typing-effect';
 
 function JobOffer() {
     return (
         <div className={s.jobBlock}>
             <div className={s.jobContainer}>
-                {/*<Title text={'I am available for freelance'}/>*/}
-                <h2>I am available for freelance</h2>
-                <button> Send offer </button>
+                <h2>
+                    <ReactTypingEffect
+                        text={'I am available for freelance.'}
+                    />
+                </h2>
+                <button > Send offer</button>
             </div>
         </div>
     );

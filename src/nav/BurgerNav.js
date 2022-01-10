@@ -1,12 +1,16 @@
-import React from "react";
-import s from './Nav.module.scss';
+import React, {useState} from "react";
+import s from './BurgerNav.module.scss';
 import { Link, animateScroll as scroll } from "react-scroll";
 
 
-function Nav() {
-
+function BurgerNav() {
+const [menuIsOpen, setBurgerMenu]= useState(false);
+let onBurgerClick=()=>{
+    setBurgerMenu(!menuIsOpen)
+}
     return (
-        <div className={s.nav}>
+        <div className={s.burgerNav}>
+            <div className={menuIsOpen ? `${s.burgerNavItems} ${s.show}` : s.burgerNav}>
             {/*<a href={'#main'}>Main</a>*/}
             <Link
                 activeClass={s.active}
@@ -43,8 +47,10 @@ function Nav() {
                             offset={31}
                             duration= {500}
                         >Contacts</Link>
+            </div>
+            <div onClick={onBurgerClick} className={s.burgerBtn}>1</div>
         </div>
     );
 }
 
-export default Nav;
+export default BurgerNav;
