@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.384a1346.chunk.css",
-    "main.js": "/myportfolio/static/js/main.ec491378.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.ec491378.chunk.js.map",
+    "main.js": "/myportfolio/static/js/main.d97c8cbf.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.d97c8cbf.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.b37b9eac.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.b37b9eac.js.map",
     "static/js/2.754ac487.chunk.js": "/myportfolio/static/js/2.754ac487.chunk.js",
@@ -19,8 +19,8 @@
     "static/media/codewars (1).f575fb32.png": "/myportfolio/static/media/codewars (1).f575fb32.png",
     "static/media/counter.3dcf281d.png": "/myportfolio/static/media/counter.3dcf281d.png",
     "static/media/github.f3d873d7.png": "/myportfolio/static/media/github.f3d873d7.png",
+    "static/media/myPhoto.d35c0411.jpg": "/myportfolio/static/media/myPhoto.d35c0411.jpg",
     "static/media/rest.f1eaad3f.svg": "/myportfolio/static/media/rest.f1eaad3f.svg",
-    "static/media/samurai.ed78dcde.jpg": "/myportfolio/static/media/samurai.ed78dcde.jpg",
     "static/media/social.90f350eb.png": "/myportfolio/static/media/social.90f350eb.png",
     "static/media/telegram.e9722f26.png": "/myportfolio/static/media/telegram.e9722f26.png",
     "static/media/todoList.8317f3ee.png": "/myportfolio/static/media/todoList.8317f3ee.png"
@@ -29,6 +29,6 @@
     "static/js/runtime-main.b37b9eac.js",
     "static/js/2.754ac487.chunk.js",
     "static/css/main.384a1346.chunk.css",
-    "static/js/main.ec491378.chunk.js"
+    "static/js/main.d97c8cbf.chunk.js"
   ]
 }
