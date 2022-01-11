@@ -22,7 +22,7 @@ function Nav() {
                     to="skills"
                     spy={true}
                     smooth={true}
-                    offset={1}
+                    offset={-30}
                     duration= {500}
                 >Skills</Link>
             {/*<a href={'#projects'}>Projects</a>*/}
@@ -31,7 +31,7 @@ function Nav() {
                         to="projects"
                         spy={true}
                         smooth={true}
-                        offset={1}
+                        offset={-30}
                         duration= {500}
                     >Projects</Link>
             {/*<a href={'#contacts'}>Contacts</a>*/}
@@ -40,7 +40,7 @@ function Nav() {
                             to="contacts"
                             spy={true}
                             smooth={true}
-                            offset={31}
+                            offset={-30}
                             duration= {500}
                         >Contacts</Link>
         </div>
