@@ -12,8 +12,8 @@ export const Project = [ {
     },
     {
         style: {backgroundImage: `url(${todoList})`},
-        hrefSite: "https://github.com/Beergrizl/toDoList2.0",
-        hrefSource: "https://github.com/Beergrizl/toDoList2.0",
+        hrefSite: "https://github.com/Beergrizl/todolist3",
+        hrefSource: "https://github.com/Beergrizl/todolist3",
         title: 'TodoList',
         description:'Best way to check your work tasks..',
     },

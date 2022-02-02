@@ -11,7 +11,6 @@ function Footer() {
     return (
         <div className={s.footerBlock}>
             <div className={s.footerContainer}>
-               {/* <Title text={'Artsiom Sadouski'}/>*/}
                 <div className={s.formBlock}>
                     <a href={'https://github.com/Beergrizl'}> <img className={s.image} src={github}/> </a>
                     <a href={'https://t.me/ArtsiomSadouski'}> <img className={s.image} src={telegram}/> </a>
